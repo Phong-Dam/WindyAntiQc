@@ -1,0 +1,209 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28159",
+          "message": {
+            "text": "Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/phong/Desktop/WarCraft-III-MHplus-master/FOASimpleAntiQC/Macro.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 8,
+                  "endLine": 31,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SendChatNoWfe",
+                  "decoratedName": "?SendChatNoWfe@@YAXHPBDZZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28159",
+          "message": {
+            "text": "Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/phong/Desktop/WarCraft-III-MHplus-master/FOASimpleAntiQC/Macro.cpp"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 22,
+                  "endLine": 35,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SendChatNoWfe",
+                  "decoratedName": "?SendChatNoWfe@@YAXHPBDZZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28159",
+          "message": {
+            "text": "Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/phong/Desktop/WarCraft-III-MHplus-master/FOASimpleAntiQC/Macro.cpp"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 8,
+                  "endLine": 50,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SendChatNoWfe",
+                  "decoratedName": "?SendChatNoWfe@@YAXHPBDZZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28159",
+          "message": {
+            "text": "Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/phong/Desktop/WarCraft-III-MHplus-master/FOASimpleAntiQC/Macro.cpp"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 22,
+                  "endLine": 52,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SendChatNoWfe",
+                  "decoratedName": "?SendChatNoWfe@@YAXHPBDZZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28159",
+          "message": {
+            "text": "Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/phong/Desktop/WarCraft-III-MHplus-master/FOASimpleAntiQC/Macro.cpp"
+                },
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 11,
+                  "endLine": 129,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WarcraftRealWNDProc_my",
+                  "decoratedName": "?WarcraftRealWNDProc_my@@YIJPAUHWND__@@IIJ@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33523.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/phong/Desktop/WarCraft-III-MHplus-master/FOASimpleAntiQC/Macro.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "59d71fbc7b9d39290454eee0a95d6b8e950f5c88876a5f95d19233b5e5c7f5b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phong/desktop/warcraft-iii-mhplus-master/foasimpleantiqc/includes.h"
+          },
+          "hashes": {
+            "sha-256": "b7964afe0bc3b1e3692db5ee489470a277bfab373255cc764a2e997021ff9077"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phong/desktop/warcraft-iii-mhplus-master/foasimpleantiqc/init.h"
+          },
+          "hashes": {
+            "sha-256": "eab7d5034e4ad7ba7e5d01548964975bfabecc5e7866ae665d9aad19f4f77049"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phong/desktop/warcraft-iii-mhplus-master/foasimpleantiqc/minhook.h"
+          },
+          "hashes": {
+            "sha-256": "62dff05e63155c6bf8135c36a0d79dedbdcaaede9da26fe38daf0bea34323e38"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phong/desktop/warcraft-iii-mhplus-master/foasimpleantiqc/chat.h"
+          },
+          "hashes": {
+            "sha-256": "854cca1383527b8e529037ad35e840de5ba0856bd0000e75c7cff2ef4e5feaae"
+          }
+        }
+      ]
+    }
+  ]
+}

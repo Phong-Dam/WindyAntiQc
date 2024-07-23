@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33523.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/phong/desktop/warcraft-iii-mhplus-master/qc-1.26/ini.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "86571b2b4c57b6c19f387b33a5a1ba1b63d97d1d8f5b8d24817d5c745cc17847"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phong/desktop/warcraft-iii-mhplus-master/qc-1.26/ini.h"
+          },
+          "hashes": {
+            "sha-256": "5da980b3283d1eb50f8b1df3788c86e76d1e624c32fa94a81bfae350e5e8f983"
+          }
+        }
+      ]
+    }
+  ]
+}
